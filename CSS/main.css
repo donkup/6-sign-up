@@ -22,16 +22,20 @@ body {
   display: inline-block;
   width: 40%;
   float: left;
+  padding: 40px;
   background-color: yellow;
+  color: #fff;
 }
 
 .main-title {
 }
 
 .bottom-links {
+
 }
 
 .bottom-links > a {
+  color: #fff;
 }
 
 .bottom-links > span {
@@ -42,11 +46,43 @@ body {
   width: 60%;
   padding: 60px;
   float: left;
-  background-color: blueviolet;
+  background-color: #fff;
+  
+ 
 }
 
 .close {
 }
 
 .form {
+  display: inline-block;
+  width: 100%;
+
+}
+.form-row {
+  display: inline-block;
+  width: 100%;
+  
+
+}
+.form-row + .form-row {
+  margin-top: 40px;
+}
+label {
+  display: inline-block;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  color: #C7C7C7;
+
+}
+
+input {
+  display: inline-block;
+  width: 100%;
+  font-size: 30px;
+  border: none;
+  border-bottom: 1px solid #C7C7C7;
+
 }

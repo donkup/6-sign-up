@@ -21,3 +21,13 @@
   - sign in
   - forgot password
 - [ ] css turi buti tik vienas failas, kur stiliaus taisykles veikia vienodai (identiskai) per visus puslapius
+
+#Pozicionavimas
+
+1. Vaikui duodam (position absolut)
+2. artimiausiam logiskam tevui duodam:
+ a) (position realitv)jei elmentas neturi kitokiu POSITION savybiu
+ b) paliekam tokia POSITION savybes kurios yra to elemento, jei nurodytos
+
+
+

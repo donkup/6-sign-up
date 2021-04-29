@@ -29,13 +29,21 @@
     line-height: 30px;
     border: none;
     border-bottom: 1px solid #F9F9F9;
-    
+    padding: 0 10px;   
   
   }
+  input:focus {
+      background-color: rgb(226, 222, 222);
+      outline-color: greenyellow;
+        }
+  input:focus-visible {
+      color: hotpink;
+  }      
   ::placeholder {
       color: rgb(180, 182, 178);
       font-style: italic;
   }
+  
   button {
     float: left;
     background-color: #0065DB;
@@ -48,6 +56,10 @@
     border-radius: 20px;
     border:1px solid #9bc2ee;
     
+  }
+  button:hover {
+      background-color: grey;
+      cursor: pointer;
   }
   .form-row > span {
     float: left;

@@ -1,0 +1,63 @@
+.form {
+    display: inline-block;
+    width: 100%;
+  
+  }
+  .form-row {
+    display: inline-block;
+    width: 100%;
+    
+  
+  }
+  .form-row + .form-row {
+    margin-top: 40px;
+  }
+  label {
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: #d6d1d1;
+  
+  }
+  
+  input {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    border: none;
+    border-bottom: 1px solid #F9F9F9;
+    
+  
+  }
+  ::placeholder {
+      color: rgb(180, 182, 178);
+      font-style: italic;
+  }
+  button {
+    float: left;
+    background-color: #0065DB;
+    color: #fff;
+    padding: 10px 40px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 20px;
+    border:1px solid #9bc2ee;
+    
+  }
+  .form-row > span {
+    float: left;
+    padding: 10px;
+  
+  }
+  .form-row > a {
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    line-height: 20px;
+  
+  }
